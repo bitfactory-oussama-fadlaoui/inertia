@@ -6,5 +6,6 @@ export { default as shouldIntercept } from './shouldIntercept'
 export * from './types'
 export { hrefToUrl, mergeDataIntoQueryString, urlWithoutHash } from './url'
 export { type Router }
+export { objectToFormData } from './formData'
 
 export const router = new Router()
